@@ -22,7 +22,7 @@ const Signup = () => {
   }
   const handleSubmit = (e) => {
     // e.preventDefault()
-    axios.post('http://54.165.146.182:8081/signup', values)
+    axios.post('http://3.94.201.55:8081/signup', values)
       .then(res => {
         if (res.data === 'Error') {
           // console.log('请求发生错误')
