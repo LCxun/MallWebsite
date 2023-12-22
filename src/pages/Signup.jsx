@@ -38,7 +38,9 @@ const Signup = () => {
 
 
   return (
+    
     <Helmet title='Signup'>
+      
       <section>
         <Container>
           <Row>
