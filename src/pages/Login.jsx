@@ -33,7 +33,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     // e.preventDefault()
     // setErrors(validation(values))
-    axios.post('http://3.94.201.55:8081/login', values)
+    axios.post('http://website-mall-env.us-east-1.elasticbeanstalk.com/login', values)
       .then(res => {
         // console.log(res);
         if (res.data.message === 'Login successful') {
